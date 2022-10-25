@@ -1,0 +1,29 @@
+.mainContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 240px;
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+.items{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    background: rgb(170, 169, 169);
+}
+
+.items:hover{
+    opacity: 0.8;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(47, 47, 134);
+}
+
