@@ -37,18 +37,20 @@ function Xo() {
   }, [x.length, o.length]);
 
   return (
-    <div className="mainContainer">
-      {FIELDS.map((item) => {
-        if (o.findIndex((it) => it === item) > -1) {
-          return <div className="items content">O</div>;
-        }
-        if (x.findIndex((it) => it === item) > -1) {
-          return <div className="items content">X</div>;
-        }
-        return (
-          <div className="items" onClick={() => handleXValues(item)}></div>
-        );
-      })}
+    <div className="mainConteiner">
+      <div className="contentContainer">
+        {FIELDS.map((item) => {
+          if (o.findIndex((it) => it === item) > -1) {
+            return <div className="items content">O</div>;
+          }
+          if (x.findIndex((it) => it === item) > -1) {
+            return <div className="items content">X</div>;
+          }
+          return (
+            <div className="items" onClick={() => handleXValues(item)}></div>
+          );
+        })}
+      </div>
     </div>
   );
 }

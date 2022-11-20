@@ -1,13 +1,19 @@
 body {
     background-color: #eee;
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/b4759e96fa9ada8ee8caa4c771fcd503f289d791/6de77/static/triangle_background-9df4fa2e10f0e294779511e99083c2bc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    overflow: auto;
 }
 
 .calculator {
