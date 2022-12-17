@@ -12,8 +12,7 @@ overflow: auto;
     border: 5px;
     border-style: solid;
     border-radius: 50%;
-    background: rgb(192,215,255);
-    background: radial-gradient(circle, rgba(192,215,255,1) 0%, rgba(4,0,255,1) 100%);
+    background-color: #3b415f ;
     position: relative;
     margin: auto;
     text-align: center;
@@ -25,6 +24,7 @@ overflow: auto;
     position: absolute;
     font-size: larger;
     font-weight: bold;
+    color: whitesmoke;
 }
 
 .face {
@@ -45,7 +45,7 @@ overflow: auto;
 
 .second {
     height: 180px;
-    width: 2px;
+    width: 3px;
     background-color: red;
     z-index: 5;
 }
@@ -53,14 +53,14 @@ overflow: auto;
 .minute {
     height: 165px;
     width: 4px;
-    background-color: black;
+    background-color: whitesmoke;
     z-index: 4;
 }
 
 .hour {
     height: 140px;
     width: 6px;
-    background-color: black;
+    background-color: whitesmoke;
     z-index: 3;
 }
 
